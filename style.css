@@ -1,0 +1,167 @@
+.форма {
+    text-align: center;
+    background: #1FBCFF;
+    border-radius: 20px;
+    padding: 45px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.форма-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.inputname {
+    text-align: center;
+    padding: 15px;  
+}
+
+.inputname-lable{
+font-size: 18px;
+margin-right: 50px;
+}
+
+.inputname-name {
+    padding: 8px 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #FFF3BF; 
+}
+
+.inputemail {
+text-align: center;
+padding: 15px;
+}
+
+.inputemail-label {
+    font-size: 18px;
+    margin-right: 90px;
+}
+
+.inputemail-email {
+    padding: 8px 20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ; 
+}
+
+.inputpassword {
+    text-align: center;
+    padding: 10px;
+}
+
+.inutpassword-labei {
+    font-size: 18px;
+    margin-right: 75px;
+}
+
+.inutpassword-pasword {
+    padding: 8px  20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ; 
+}
+
+.inputpassword2 {
+    text-align: center;
+    padding: 15px;
+}
+
+.inputpassword2-label {
+    font-size: 18px;
+    margin-right: 18px;
+}
+
+.inputpassword2-pas {
+    padding: 8px  20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ; 
+}
+
+.inputsex {
+    text-align: center;
+    padding: 15px; 
+    font-size: 18px;
+    margin-right: 75px;
+}
+
+.inputsex1 {
+ margin-right: 90px;   
+}
+
+.inputAge {
+    text-align: center;
+    padding: 15px;
+}
+
+.inputAge-label {
+    font-size: 18px;
+    margin-right: 225px;
+}
+
+.inputAge-age {
+    padding: 8px  20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ;   
+}
+
+.inputchoice {
+    text-align: center;
+    padding: 15px;
+}
+
+.inputchoice-label {
+    font-size: 18px;
+    margin-right: 125px;
+}
+
+.inputchoice-course {
+    padding: 8px  20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ;   
+}
+
+.inputAdr {
+    text-align: center;
+    padding: 15px;
+}
+
+.inputAdr-lable {
+    font-size: 18px;
+    margin-right: 35px;
+}
+
+.inputAdr-text {
+    padding: 30px  20px;
+    border: none;
+    font-size: 15px;
+    background-color:#FFF3BF ;   
+}
+
+.inputconsent {
+    text-align: center;
+    padding: 15px;
+}
+
+.inputconsent-label {
+    font-size: 15px;  
+}
+
+.button1 {
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.button2 {
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 15px; 
+}
+
