@@ -14,19 +14,19 @@
   <form action="#" method="get">
     <div class="inputname">
       <label class="inputname-lable" for="name">Повне ім'я</label>
-      <input type="text" id="name" class="inputname-name"> <br>
+      <input type="text" id="name" required class="inputname-name"> <br>
     </div>
     <div class="inputemail">
       <label for="email" class="inputemail-label">Email</label>
-      <input type="email" id="email" class="inputemail-email"><br>
+      <input type="email" id="email" required class="inputemail-email"><br>
     </div>
     <div class="inputpassword">
       <label class="inutpassword-labei" for="pwd">Пароль</label>
-      <input type="password" id="pwd" class="inutpassword-pasword" ><br>
+      <input type="password" id="pwd" required class="inutpassword-pasword" ><br>
     </div>
     <div class="inputpassword2">
       <label class="inputpassword2-label" for="pwd2">Пароль ще раз </label>
-      <input type="password" id="pwd" class="inputpassword2-pas" ><br>
+      <input type="password" id="pwd" required class="inputpassword2-pas" ><br>
     </div>
     <div class="inputsex">
       <label class="inputsex1" for="стать">Стать</label>
@@ -41,7 +41,7 @@
     </div>  
     <div class="inputchoice"> 
       <label class="inputchoice-label" for="course">Курс</label>
-      <select name="види" id="course" class="inputchoice-course">
+      <select name="види" id="course" class="inputchoice-course" required>
         <option value="-=Виберіть курс=-">-=Виберіть курс=-</option>
         <option value="Front-End">Front-End</option>
         <option value="Back-End">Back-End</option>
@@ -51,10 +51,10 @@
     </div>
     <div class="inputAdr">
       <label class="inputAdr-lable" for="adress">Повна адреса</label> 
-      <input class="inputAdr-text" type="text" id="adress" placeholder="Країна, місто, селище, вулиця">
+      <input class="inputAdr-text" type="text" id="adress" placeholder="Країна, місто, селище, вулиця" required>
     </div>
     <div class="inputconsent" >
-          <input type="checkbox" id="згода">
+          <input type="checkbox" id="згода" required>
           <label class="inputconsent-label" for="згода">Я погоджуюсь з обробкою персональних даних</label>
     </div>
     <div>
